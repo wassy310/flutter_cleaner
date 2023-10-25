@@ -11,6 +11,10 @@ This eliminates the need to delete unnecessary text!
 e.g., `.\flutter_cleaner.exe your_project_name`
 4. Depending on the security settings of your PC, Firewall, or anti-virus software, executable files may be blocked. If this is the case, please contact [me](https://github.com/wassy310/flutter_cleaner#contact).
 
+## Acknowledgement
+Thanks to the following content:
+- [The Flutter command-line tool](https://docs.flutter.dev/reference/flutter-cli) is how developers (or IDEs on behalf of developers) interact with Flutter. Without this, I would have spent a lot of time creating flutter projects, and "flutter_cleaner" would not have been born.
+
 ## License
 This codebase is released under [MIT License](https://github.com/wassy310/flutter_cleaner/blob/master/LICENSE).
 
