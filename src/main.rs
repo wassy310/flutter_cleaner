@@ -14,11 +14,11 @@ fn main() {
         panic!("Failed to create Flutter project");
     }
 
-    remove_comments(format!("{}/lib/main.dart", project_name));
-    remove_comments(format!("{}/pubspec.yaml", project_name));
+    remove_comments(&format!("{}/lib/main.dart", project_name));
+    remove_comments(&format!("{}/pubspec.yaml", project_name));
 }
 
-fn remove_comments(file_path: String) {
+fn remove_comments(file_path: &str) {
     let contents = fs::read_to_string(&file_path).expect("Failed to read file.");
 
     let filtered: Vec<String> = contents.lines()
