@@ -21,9 +21,8 @@ fn main() {
 fn remove_comments(file_path: String) {
     let contents = fs::read_to_string(&file_path).expect("Failed to read file.");
 
-    let filtered: Vec<String> = contents.lines()
+    let filtered: Vec<&str> = contents.lines()
         .filter(|line| !line.trim_start().starts_with("//") && !line.trim_start().starts_with("#"))
-        .map(|s| s.to_string())
         .collect();
 
     fs::write(&file_path, filtered.join("\n")).expect("Failed to write file.");
