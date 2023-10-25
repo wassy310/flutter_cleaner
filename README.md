@@ -14,8 +14,9 @@ e.g., `.\flutter_cleaner.exe your_project_name`
 > Depending on the security settings of your PC, Firewall, or anti-virus software, executable files may be blocked.
 
 ## Acknowledgement
-Thanks to the following content:
+Thanks to the following content and contributors:
 - [The Flutter command-line tool](https://docs.flutter.dev/reference/flutter-cli) is how developers (or IDEs on behalf of developers) interact with Flutter. Without this, I would have spent a lot of time creating flutter projects, and "flutter_cleaner" would not have been born.
+- [Ray Yano | あねてあ](https://github.com/yanorei32)'s contributions have allowed my project to improve performance and memory efficiency.
 
 ## License
 This codebase is released under [MIT License](https://github.com/wassy310/flutter_cleaner/blob/master/LICENSE).
